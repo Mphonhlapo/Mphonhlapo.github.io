@@ -1,0 +1,61 @@
+.figures-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.figure-with-caption:nth-child(1) {
+    text-align: center;
+    flex: 0 0 48%;
+    max-height: 400px;
+    overflow: hidden;
+    background-color: #e2d1d1;
+    margin-right: 10px;
+}
+
+.figure-with-caption:nth-child(2) {
+    text-align: center;
+    flex: 0 0 48%;
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+    background-color: #e2d1d1;
+    margin-left: 10px;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
+.figure-with-caption img,
+.figure-with-caption embed {
+    max-width: 100%;
+    height: 100%;
+    width: 70%;
+    flex: 1;
+}
+.figure-with-caption figcaption {
+    margin-top: 10px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: 0.02s;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(235, 230, 241);
+
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+footer {
+    background-color: #8a6969;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-top: auto;
+}
