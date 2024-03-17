@@ -1,61 +1,88 @@
+body {
+    background-color: #ebe6f1;
+    font-family: Arial, sans-serif;
+}
+
+
 .figures-container {
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
-.figure-with-caption:nth-child(1) {
+
+.figure-with-caption {
     text-align: center;
     flex: 0 0 48%;
     max-height: 400px;
     overflow: hidden;
     background-color: #e2d1d1;
-    margin-right: 10px;
+    margin-bottom: 20px;
 }
 
 .figure-with-caption:nth-child(2) {
-    text-align: center;
-    flex: 0 0 48%;
-    height: 400px;
-    width: 100%;
-    overflow: hidden;
-    background-color: #e2d1d1;
-    margin-left: 10px;
-    padding-bottom: 0%;
-    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: 0;
 }
 
-.figure-with-caption img,
+.figure-with-caption img{
+    max-width: 100%;
+    height: auto;
+}
 .figure-with-caption embed {
     max-width: 100%;
     height: 100%;
-    width: 70%;
-    flex: 1;
 }
+
 .figure-with-caption figcaption {
     margin-top: 10px;
 }
 
+
 a {
     color: #007bff;
     text-decoration: none;
-    transition: 0.02s;
-    text-decoration: none;
-}
-
-body {
-    background-color: rgb(235, 230, 241);
-
+    transition: color 0.20s;
 }
 
 a:hover {
     color: #0056b3;
 }
 
+#contacts ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#contacts li {
+    margin-bottom: 15px;
+}
+
+
+.twitter-icon {
+    color: #1da1f2;
+}
+
+.facebook-icon {
+    color: #1877f2;
+}
+
+.linkedin-icon {
+    color: #2867b2;
+}
+
+.mail-icon {
+    color: #e74c3c;
+}
+
+#contacts li:hover ion-icon {
+    color: #010d1a;
+}
+
 footer {
-    background-color: #8a6969;
+    background-color: #5a4d4d;
     color: #fff;
-    padding: 10px;
+    padding: 15px; 
     text-align: center;
-    margin-top: auto;
 }
