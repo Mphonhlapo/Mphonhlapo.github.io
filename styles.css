@@ -3,12 +3,31 @@ body {
     font-family: Arial, sans-serif;
 }
 
-
-.figures-container {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
+nav a {
+    color: #1839f2;
 }
+
+nav a:hover {
+    color: #010d1a;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 10px;
+}
+
+.cv{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #1839f2;
+}
+
+
 
 
 .figure-with-caption {
@@ -16,37 +35,18 @@ body {
     flex: 0 0 48%;
     max-height: 400px;
     overflow: hidden;
-    background-color: #e2d1d1;
+    background-color: #ebe6f1;
     margin-bottom: 20px;
 }
 
-.figure-with-caption:nth-child(2) {
-    margin-left: auto;
-    margin-right: 0;
-}
 
 .figure-with-caption img{
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
-}
-.figure-with-caption embed {
-    max-width: 100%;
-    height: 100%;
 }
 
 .figure-with-caption figcaption {
     margin-top: 10px;
-}
-
-
-a {
-    color: #007bff;
-    text-decoration: none;
-    transition: color 0.20s;
-}
-
-a:hover {
-    color: #0056b3;
 }
 
 #contacts ul {
@@ -56,7 +56,9 @@ a:hover {
 }
 
 #contacts li {
-    margin-bottom: 15px;
+    margin-right: 15px;
+    display: inline;
+    font-size: 32px;
 }
 
 
